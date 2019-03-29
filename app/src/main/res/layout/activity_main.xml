@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Contador de productos"
+        android:layout_weight="0.5"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"/>
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:rowCount="3"
+        app:columnCount="3"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/linear1"
+            android:background="#E6E6FA"
+            android:gravity="center_horizontal"
+            android:layout_margin="16dp">
+            <TextView
+                android:id="@+id/producto1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Producto 1"/>
+            <TextView
+                android:id="@+id/cont1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/linear2"
+            android:background="#EE82EE"
+            android:gravity="center_horizontal"
+            android:layout_margin="16dp">
+            <TextView
+                android:id="@+id/producto2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Producto 2"/>
+            <TextView
+                android:id="@+id/cont2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/linear3"
+            android:layout_margin="16dp"
+            android:background="#00FFFF"
+            android:gravity="center_horizontal">
+            <TextView
+                android:id="@+id/producto3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Producto 3"/>
+            <TextView
+                android:id="@+id/cont3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/linear4"
+            android:layout_margin="16dp"
+            android:background="#1E90FF"
+            android:gravity="center_horizontal">
+            <TextView
+                android:id="@+id/producto4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Producto 4"/>
+            <TextView
+                android:id="@+id/cont4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#00FF7F"
+            android:id="@+id/linear5"
+            android:layout_margin="16dp"
+            android:gravity="center_horizontal">
+            <TextView
+                android:id="@+id/producto5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Producto 5"/>
+            <TextView
+                android:id="@+id/cont5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/linear6"
+            android:layout_margin="16dp"
+            android:background="#1E90FF"
+            android:gravity="center_horizontal">
+            <TextView
+                android:id="@+id/producto6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Producto 6"/>
+            <TextView
+                android:id="@+id/cont6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/linear7"
+            android:layout_margin="16dp"
+            android:background="#FF00FF"
+            android:gravity="center_horizontal">
+            <TextView
+                android:id="@+id/producto7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Producto 7"/>
+            <TextView
+                android:id="@+id/cont7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/linear8"
+            android:layout_margin="16dp"
+            android:background="#FD00FD"
+            android:gravity="center_horizontal">
+            <TextView
+                android:id="@+id/producto8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Producto 8"/>
+            <TextView
+                android:id="@+id/cont8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#FF1493"
+            android:id="@+id/linear9"
+            android:layout_margin="16dp"
+            android:gravity="center_horizontal">
+            <TextView
+                android:id="@+id/producto9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Producto 9"/>
+            <TextView
+                android:id="@+id/cont9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"/>
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.GridLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/usuario"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/usuario"
+            android:hint="@string/escribe_el_usuario_aqui"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/correo"/>
+        <EditText
+            android:id="@+id/correo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/escribecorreo"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/enviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar"/>
+
+</LinearLayout>
